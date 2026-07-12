@@ -321,8 +321,8 @@ requires-dist = [
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0,<9" },
     { name = "pytest-cov", marker = "extra == 'dev'", specifier = ">=5.0,<6" },
     { name = "python-docx", specifier = ">=1.1,<2" },
-    { name = "python-pptx", specifier = ">=0.6.23,<1" },
-    { name = "rich", specifier = ">=13.0,<14" },
+    { name = "python-pptx", specifier = ">=0.6.23,<2" },
+    { name = "rich", specifier = ">=13.0,<16" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5,<1" },
 ]
 provides-extras = ["dev"]
